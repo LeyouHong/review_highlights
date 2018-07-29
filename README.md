@@ -15,9 +15,10 @@ Set the env in ~/.profile(GOPATH and GOROOT based on your env)
 
 ## Build rh
 ````
-go get github.com/LeyouHong/review_highlights
+$ go get github.com/LeyouHong/review_highlights
 
-make
+$ make
 
-./rh reviews.txt 2
+$ docker-compose up -d
+$ ./rh reviews.txt 2
 ````
